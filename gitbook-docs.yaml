@@ -1,0 +1,61 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: ApplySG Documentation
+  structure:
+    - type: section
+      key: section-user-guide
+      title: "User Guide"
+      path: user-guide
+      description: "Configure and operate form-based workflows in ApplySG"
+      icon: book-open
+      default: true
+      children:
+        - type: space
+          key: space-user-guide
+          title: "User Guide"
+          path: user-guide
+          default: true
+          content:
+            directory: ./user-guide
+    - type: section
+      key: section-integrator-guide
+      title: "Integrator Guide"
+      path: integrator-guide
+      description: "Connect agency systems to ApplySG with webhooks, embeds and SSO"
+      icon: plug
+      children:
+        - type: space
+          key: space-integrator-guide
+          title: "Integrator Guide"
+          path: integrator-guide
+          default: true
+          content:
+            directory: ./integrator-guide
+    - type: section
+      key: section-api-specs
+      title: "API Specs"
+      path: api-specs
+      description: "REST API reference generated from the ApplySG OpenAPI specification"
+      icon: code
+      children:
+        - type: space
+          key: space-api-specs
+          title: "API Specs"
+          path: api-specs
+          default: true
+          content:
+            directory: ./api-specs
+    - type: section
+      key: section-advanced-capabilities
+      title: "Advanced Capabilities"
+      path: advanced-capabilities
+      description: "Conditional logic, automation, analytics and multi-agency workflows"
+      icon: bolt
+      children:
+        - type: space
+          key: space-advanced-capabilities
+          title: "Advanced Capabilities"
+          path: advanced-capabilities
+          default: true
+          content:
+            directory: ./advanced-capabilities

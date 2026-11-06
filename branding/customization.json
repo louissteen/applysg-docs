@@ -1,0 +1,87 @@
+{
+  "title": "ApplySG Documentation",
+  "styling": {
+    "theme": "clean",
+    "primaryColor": { "light": "#2F5FE8", "dark": "#8AA6FF" },
+    "tint": { "color": { "light": "#F4F2FA", "dark": "#1C1C2A" } },
+    "infoColor": { "light": "#2F5FE8", "dark": "#8AA6FF" },
+    "successColor": { "light": "#16A34A", "dark": "#4ADE80" },
+    "warningColor": { "light": "#D97706", "dark": "#FBBF24" },
+    "dangerColor": { "light": "#DC2626", "dark": "#F87171" },
+    "font": "Inter",
+    "monospaceFont": "IBMPlexMono",
+    "corners": "rounded",
+    "depth": "subtle",
+    "icons": "regular",
+    "sidebar": { "background": "filled", "list": "pill" },
+    "search": "prominent",
+    "background": "plain"
+  },
+  "favicon": {
+    "icon": {
+      "light": "https://raw.githubusercontent.com/louissteen/applysg-docs/main/branding/favicon.svg",
+      "dark": "https://raw.githubusercontent.com/louissteen/applysg-docs/main/branding/favicon.svg"
+    }
+  },
+  "header": {
+    "logo": {
+      "light": "https://raw.githubusercontent.com/louissteen/applysg-docs/main/branding/logo-light.svg",
+      "dark": "https://raw.githubusercontent.com/louissteen/applysg-docs/main/branding/logo-dark.svg"
+    },
+    "links": [
+      { "title": "Products", "style": "link", "to": { "kind": "url", "url": "https://www.developer.tech.gov.sg/products/" }, "links": [], "localizedTitle": {} },
+      { "title": "Docs", "style": "link", "to": { "kind": "url", "url": "https://docs.developer.tech.gov.sg/" }, "links": [], "localizedTitle": {} },
+      { "title": "Events", "style": "link", "to": { "kind": "url", "url": "https://www.developer.tech.gov.sg/communities/events/" }, "links": [], "localizedTitle": {} },
+      { "title": "About", "style": "link", "to": { "kind": "url", "url": "https://www.developer.tech.gov.sg/about-us/" }, "links": [], "localizedTitle": {} }
+    ]
+  },
+  "footer": {
+    "copyright": "© 2026 Government Technology Agency of Singapore. Demo site with dummy data.",
+    "groups": [
+      {
+        "title": "ApplySG",
+        "localizedTitle": {},
+        "links": [
+          { "title": "Product page", "localizedTitle": {}, "to": { "kind": "url", "url": "https://www.developer.tech.gov.sg/products/categories/platform/applysg/overview.html" } },
+          { "title": "Status", "localizedTitle": {}, "to": { "kind": "url", "url": "https://status.apply.gov.sg" } },
+          { "title": "Support", "localizedTitle": {}, "to": { "kind": "url", "url": "mailto:applysg-support@tech.gov.sg" } }
+        ]
+      },
+      {
+        "title": "Developer Portal",
+        "localizedTitle": {},
+        "links": [
+          { "title": "All products", "localizedTitle": {}, "to": { "kind": "url", "url": "https://www.developer.tech.gov.sg/products/" } },
+          { "title": "Guidelines", "localizedTitle": {}, "to": { "kind": "url", "url": "https://www.developer.tech.gov.sg/guidelines/" } },
+          { "title": "Communities", "localizedTitle": {}, "to": { "kind": "url", "url": "https://www.developer.tech.gov.sg/communities/" } }
+        ]
+      },
+      {
+        "title": "Legal",
+        "localizedTitle": {},
+        "links": [
+          { "title": "Report vulnerability", "localizedTitle": {}, "to": { "kind": "url", "url": "https://www.tech.gov.sg/report_vulnerability" } },
+          { "title": "Privacy statement", "localizedTitle": {}, "to": { "kind": "url", "url": "https://www.tech.gov.sg/privacy" } },
+          { "title": "Terms of use", "localizedTitle": {}, "to": { "kind": "url", "url": "https://www.tech.gov.sg/terms-of-use" } }
+        ]
+      }
+    ]
+  },
+  "themes": { "default": "light", "toggeable": true },
+  "ai": {
+    "mode": "assistant",
+    "suggestions": [
+      "How do I create and publish my first form?",
+      "How do I verify a webhook signature?",
+      "What roles can publish a form?",
+      "How do I get an API access token?"
+    ]
+  },
+  "pageActions": { "externalAI": true, "markdown": true, "mcp": true },
+  "pagination": { "enabled": true },
+  "feedback": { "enabled": true },
+  "pdf": { "enabled": true },
+  "git": { "showEditLink": true },
+  "externalLinks": { "target": "blank" },
+  "advancedCustomization": { "enabled": true }
+}

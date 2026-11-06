@@ -1,0 +1,9 @@
+- tag: validated
+  label: Validated
+  icon: circle-check
+- tag: tutorial
+  label: Tutorial
+  icon: graduation-cap
+- tag: reference
+  label: Reference
+  icon: book

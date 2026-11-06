@@ -1,0 +1,9 @@
+- tag: api
+  label: API
+  icon: code
+- tag: breaking
+  label: Breaking change
+  icon: triangle-exclamation
+- tag: deprecated
+  label: Deprecated
+  icon: ban

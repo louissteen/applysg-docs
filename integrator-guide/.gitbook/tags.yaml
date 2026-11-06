@@ -1,0 +1,12 @@
+- tag: validated
+  label: Validated
+  icon: circle-check
+- tag: webhooks
+  label: Webhooks
+  icon: bolt
+- tag: security
+  label: Security
+  icon: shield-halved
+- tag: breaking
+  label: Breaking change
+  icon: triangle-exclamation
