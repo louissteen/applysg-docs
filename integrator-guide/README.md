@@ -1,12 +1,6 @@
 ---
 description: "Connect your agency systems to ApplySG using OAuth 2.0 client credentials, webhooks, embedded forms and scheduled exports."
 icon: plug
-layout:
-  title: true
-  description: true
-  tableOfContents: true
-  outline: true
-  pagination: true
 ---
 
 # Integrator Guide
