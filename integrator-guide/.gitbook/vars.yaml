@@ -3,4 +3,4 @@ portal_url: https://apply.gov.sg
 api_base_url: https://api.apply.gov.sg/v1
 sandbox_base_url: https://api.sandbox.apply.gov.sg/v1
 support_email: applysg-support@tech.gov.sg
-api_version: "2026-10"
+api_version: 2026-10
